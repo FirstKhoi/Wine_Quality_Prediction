@@ -13,7 +13,7 @@ st.markdown("---")
 # 2. Tải mô hình đã đóng gói về
 @st.cache_resource # Dòng này giúp Streamlit lưu cấu hình mô hình vào bộ nhớ đệm, không bị load lại mỗi lần click
 def load_model():
-    return joblib.load('/Users/luongnhatkhoi/Desktop/GeeksForGeeks/ML_Projects/Wine_quality_prediction/wine_model_pipeline.pkl')
+    return joblib.load('./Wine_Quality_Prediction/wine_model_pipeline.pkl')
 
 try:
     model = load_model()
