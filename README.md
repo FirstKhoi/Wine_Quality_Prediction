@@ -2,6 +2,8 @@
 
 A machine learning-based web application that predicts wine quality using advanced algorithms (XGBoost + SMOTE) based on chemical properties.
 
+[winequalitypredictionbykhoi.streamlit.app](https://winequalitypredictionbykhoi.streamlit.app/)
+
 ## 📋 Overview
 
 This project implements a intelligent system to assess the quality of wine by analyzing chemical indicators. The application uses a trained machine learning model to classify wines as premium quality or standard grade based on chemical composition features.
